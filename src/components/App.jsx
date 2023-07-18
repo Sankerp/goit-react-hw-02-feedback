@@ -26,7 +26,7 @@ export class App extends Component {
   };
 
   render() {
-    const options = Object.keys(this.state); // або змінна з об'єктом
+    const options = Object.keys(this.state);
     const total = this.totalFeedback();
     return (
       <div className="container">
